@@ -24,6 +24,7 @@ The BERT and XLNet models have been written with the help of the fastai library 
 
 The training scripts for these two models are 'train_bert.py' and 'train_xlnet.py', while the scripts for testing the models are 'bert_inference.py' and 'xlnet_inference.py'. All of these scripts can be found in the folder titled 'transformers' within 'transformer-EV-topic-classification'.
 
+## codebook
 In addition to the code, the repo also contains a copy of the training manual that we used in the field experiment for labeling the data. It is provided through a code book which can be found at 'codebook_ev_project.pdf' within 'transformer-EV-topic-classification'. 
 
 Due to privacy restrictions we are not able to post the reviews dataset publicly. However, there is an open data API for getting EV charging infrastructure information (Open Charge Map).
