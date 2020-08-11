@@ -30,3 +30,6 @@ In addition to the code, the repo also contains a copy of the training manual th
 Due to privacy restrictions we are not able to post the reviews dataset publicly. However, there is an open data API for getting EV charging infrastructure information (Open Charge Map).
 
 For any other clarifications on the steps for replication, feel free to get in touch with us at sameerdharur@gatech.edu or asensio@gatech.edu.
+
+# data for training, validation and testing
+In 'anonymized_data' folder, we provide anonymized review data that are used for training, validation, and testing in this project, with their topic labels.
