@@ -33,3 +33,6 @@ For any other clarifications on the steps for replication, feel free to get in t
 
 # data for training, validation and testing
 In 'anonymized_data' folder, we provide anonymized review data that are used for training, validation, and testing in this project, with their topic labels.
+
+# data and code for map visualization (Fig. 2)
+'fig2_data.csv' contains processed data required for replicating Figure 2 in the manuscript. The data contains county-level review proportions (%) for each topic prediction. For example, a county with FIPS code 01003 has 38.39% value under Functionality column represents that 38.39% of the reviews from that county is predicted to have Functionality discussion. The predicted proportion data comes with FIPS code, state, census region. Further instructions and external data (such as the shape files) are described in the 'fig2_map_visualization.R' file.
